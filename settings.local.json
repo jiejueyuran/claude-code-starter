@@ -1,0 +1,43 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(printf *)",
+      "Bash(cat *)",
+      "Bash(cp *)",
+      "Bash(powershell *)",
+      "Bash(uv run *)",
+      "Bash(npx skills *)",
+      "Bash(git config *)",
+      "Bash(git *)",
+      "Bash(rm -rf *)",
+      "Bash(dir *)",
+      "Bash(ls *)",
+      "Bash(find *)",
+      "Bash(grep *)",
+      "Bash(tasklist *)",
+      "Bash(taskkill *)",
+      "Bash(wmic *)",
+      "Bash(rm *)",
+      "Bash(mkdir *)",
+      "Bash(node *)",
+      "Bash(python *)",
+      "Bash(npm *)",
+      "mcp__playwright__browser_click",
+      "mcp__playwright__browser_snapshot",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_evaluate",
+      "mcp__playwright__browser_run_code_unsafe",
+      "mcp__playwright__browser_type",
+      "mcp__playwright__browser_take_screenshot",
+      "mcp__playwright__browser_tabs",
+      "mcp__playwright__browser_fill_form",
+      "WebSearch",
+      "WebFetch(*)",
+      "Read(//d//**)",
+      "Read(//tmp/**)"
+    ],
+    "defaultMode": "bypassPermissions"
+  },
+  "enableAllProjectMcpServers": false,
+  "hooks": {}
+}
